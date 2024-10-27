@@ -54,6 +54,11 @@ const WebcamContainer = ({ nameShop, location, dateToDay }) => {
     console.error("Erreur lors de l'envoi du fichier ZIP :", error);
   }
   };
+
+    // Configuration du Webcam pour utiliser la caméra environnementale
+    const videoConstraints = {
+        facingMode: { exact: "environment" }, // Utilise la caméra arrière
+      };
   return (
 <>
 { !isSent?   <div className="flex flex-col items-center  min-h-screen bg-gray-100 p-4 gap-4">
@@ -62,6 +67,7 @@ const WebcamContainer = ({ nameShop, location, dateToDay }) => {
           audio={false}
           ref={webcamRef}
           screenshotFormat="image/jpeg"
+          videoConstraints={videoConstraints}
           width={300} // Largeur de la webcam
         />
       </div>
