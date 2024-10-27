@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/apikadi/static/css/main.d25a5113.css",
+    "main.js": "/apikadi/static/js/main.9cea50a6.js",
+    "static/js/453.7e34f1c8.chunk.js": "/apikadi/static/js/453.7e34f1c8.chunk.js",
+    "index.html": "/apikadi/index.html",
+    "main.d25a5113.css.map": "/apikadi/static/css/main.d25a5113.css.map",
+    "main.9cea50a6.js.map": "/apikadi/static/js/main.9cea50a6.js.map",
+    "453.7e34f1c8.chunk.js.map": "/apikadi/static/js/453.7e34f1c8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d25a5113.css",
+    "static/js/main.9cea50a6.js"
+  ]
+}
